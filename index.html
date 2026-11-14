@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#17283F" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!--
+      El bloque entre seo:start y seo:end se reescribe automáticamente:
+      - en el navegador, por src/components/Seo.jsx al cambiar de ruta;
+      - al compilar, por scripts/postbuild.mjs, que genera un HTML por ruta
+        con su título, descripción, canonical, Open Graph y JSON-LD.
+      Los textos se editan en src/data/seo.js, no aquí.
+    -->
+    <!--seo:start-->
+    <title>Centro Psicoterapéutico | Psicólogos en Tijuana, La Mesa</title>
+    <meta data-seo name="description" content="Psicólogos en Tijuana (La Mesa). Psicoterapia para adultos, adolescentes, niños, parejas y familias. Elige a tu especialista y agenda por WhatsApp." />
+    <meta data-seo property="og:title" content="Centro Psicoterapéutico | Psicólogos en Tijuana, La Mesa" />
+    <meta data-seo property="og:type" content="website" />
+    <meta data-seo property="og:locale" content="es_MX" />
+    <!--seo:end-->
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="max-width:40rem;margin:4rem auto;padding:0 1.25rem;font-family:Georgia,serif;color:#17283F">
+        <h1>Centro Psicoterapéutico</h1>
+        <p>Atención psicológica en Tijuana, Baja California.</p>
+        <p>Blvd. Gustavo Díaz Ordaz 1559, Local 204-A, Fracc. La Mesa, Plaza Somis, segundo piso.</p>
+        <p>Para ver el directorio de especialistas y agendar por WhatsApp, activa JavaScript en tu navegador.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

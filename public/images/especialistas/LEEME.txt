@@ -1,0 +1,11 @@
+FOTOGRAFÍAS DE ESPECIALISTAS
+
+1. Guarda aquí cada fotografía en formato WebP (o AVIF), idealmente
+   de 800 x 1000 px (proporción 4:5) y menos de 120 KB.
+   Ejemplo: jessica-miranda-suarez.webp
+
+2. Abre src/data/specialists.js y escribe la ruta en el campo "photo":
+   photo: '/images/especialistas/jessica-miranda-suarez.webp',
+
+Mientras "photo" esté vacío, el sitio muestra un monograma con las
+iniciales de la persona.
